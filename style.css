@@ -5,7 +5,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+@media screen and (max-width: 1536px){
+    body {
+        background-size: contain;
+    }
+}
 .center {
     margin: 0 auto;
     width: 1140px;
@@ -24,6 +28,7 @@ body {
     display: inline-block;
     line-height: 40px;
     margin-right: 48px;
+    font-size: 24px;
 }
 
 .header__search-field {
@@ -62,5 +67,68 @@ body {
     border-radius: 50%;
     margin-left: 20px;
 }
+.title {
+    margin-top: 432px;
+}
+.title__name {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: 0 0 7px 0;
+}
+.title__name-eng {
+    color: #787878;
+    font-size: 20px;
+    margin: 0 0 38px 0;
 
+}
+.tittle__film-button {
+    font-weight: 400;
+    font-size: 16px;
+    width: 72px;
+    height: 29px;
+    background: #FFFFFF;
+    border-radius: 3px; 
+    text-align: center;
+    line-height: 29px;
+    color: #333333;
 
+}
+.title__info {
+    display: flex;
+}
+
+.title__country {
+    font-size: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 0 0 0 20px;
+    height: 29px;
+    line-height: 29px;
+}
+.title__play-button {
+    margin: 0 15px 0 33px;
+}
+.title__watch-trailer {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 29px;
+    height: 29px;
+    
+}
+.title__more {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    height: 29px;
+    line-height: 29px;
+    margin: 0 15px 0 auto;
+}
+.title__more-button img {
+    transform: rotate(90deg);
+}
+
+.footer {
+    height: 250px;
+}
